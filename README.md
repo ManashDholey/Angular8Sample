@@ -1,8 +1,8 @@
 # Angular8Project
 
-This repository contains a sample Angular 8 application generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3. It is intended to provide a solid starting point for learning Angular, building component-based UIs, and understanding the standard project structure used by Angular applications.
+This repository contains a sample Angular 8 application generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3. It is intended to provide a solid starting point for learning Angular fundamentals, building components, and working with forms and HTTP services.
 
-Angular is a framework for building dynamic single-page applications using TypeScript, modular components, and reusable services. This project reflects the default Angular 8 app setup so you can start developing features without having to configure the build tooling from scratch.
+Angular is a framework for building dynamic single-page applications using TypeScript, modular components, and reusable services. This project reflects the default Angular 8 app setup so you can start exploring a real Angular application.
 
 ## Project Overview
 
@@ -13,6 +13,17 @@ This app is a starter project created by Angular CLI. It includes the default st
 - serving the application locally
 - building the app for production
 - using Angular CLI for project scaffolding
+
+## Employee CRUD Feature
+
+This project also includes an employee management module with basic CRUD functionality:
+
+- Create new employee records
+- View/list all employees
+- Edit existing employee information
+- Delete employee records
+
+The employee-related code is organized under the `src/app/employee` folder and uses Angular reactive forms along with a shared `EmployeeService` for HTTP-based operations.
 
 ## Prerequisites
 
@@ -100,6 +111,7 @@ Angular8Sample/
 ├── node_modules/       # Installed dependencies
 ├── src/                # Application source code
 │   ├── app/            # Components, services, and app logic
+│   │   └── employee/   # Employee CRUD components and service
 │   ├── assets/         # Static files such as images and icons
 │   ├── environments/   # Environment configuration
 │   ├── index.html      # Main HTML file
@@ -136,3 +148,4 @@ You can also review the official Angular CLI documentation here:
 ## Notes
 
 This repository is a basic Angular starter app and is useful as a foundation for learning Angular, experimenting with components, or creating a small application from scratch.
+
